@@ -1,0 +1,60 @@
+p {
+  width:80px;
+  height:80px;
+  border-radius:40px;
+  background-color: white;
+  position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 5px grey,
+              inset 7px 7px 20px black;
+}
+
+.nigga {
+  width:80px;
+  height:80px;
+  border-radius:40px;
+  background-color: black;
+  position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 5px grey,
+              inset 7px 7px 20px grey;
+}
+
+div {
+  background-color: green;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 10px 10px -6px
+}
+
+ul {
+  background-color: green;
+  overflow: visible;
+  margin: 0;
+  padding:0;
+  width: 800px;
+  clear: both;
+  margin-bottom: 100px;
+}
+
+li {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 0;
+  float: left;
+}
+
+li:nth-child(2n) {
+  background-color: black;
+}
+
+ul:nth-child(2n) li:nth-child(1n){
+  background-color: black;
+}
+
+ul:nth-child(2n) li:nth-child(2n){
+  background-color: white;
+}
