@@ -1,0 +1,42 @@
+
+/*Mòbil apaisat*/
+@media screen and (max-width:640px) and (orientation:landscape){
+
+  body {
+    background-color: yellowgreen;
+  }
+}
+
+/*Mòbil vertical*/
+@media screen and (max-width:640px) and (orientation:portrait) {
+
+  body {
+    background-color: green;
+  }
+}
+
+
+
+/*Tablet apaisada*/
+@media screen and (min-width:641px) and (max-width:1200px) and (orientation:landscape) {
+
+  body {
+    background-color: blue;
+  }
+}
+
+/*Tablet vertical*/
+@media screen and (min-width:641px) and (max-width:1200px) and (orientation:portrait) {
+
+  body {
+    background-color: cyan;
+  }
+}
+
+/*Escriptori*/
+@media screen and (min-width:1201px) {
+
+  body {
+    background-color: yellow;
+  }
+}
