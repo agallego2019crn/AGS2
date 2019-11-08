@@ -1,5 +1,18 @@
 body {
-  background-color: #A9F5E1;
+  background-color: #AAFFC3;
+}
+
+div {
+  margin-top: 20px;
+}
+
+h1,h2 {
+  text-align: center;
+  color: black;
+  font-family: Georgia, Times;
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Bowlby One SC', cursive;
+  text-shadow: grey 5px 5px 10px;
 }
 
 ul {
