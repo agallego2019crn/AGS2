@@ -1,3 +1,13 @@
+/*
+1em=16px (Titulares)
+1.5em=24px (Parágrafos)
+2em=32px (Interlineados)
+*/
+
+body {
+  font-size: 1em;
+}
+
 p {
   font-size: 24px;
   line-height: 32px;
@@ -11,6 +21,12 @@ img {
 div {
   width: 800px;
   margin: 0 auto;
+}
+
+h2 {
+  font-family: Georgia, Times;
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'McLaren', cursive;
 }
 
 .izquierda {
