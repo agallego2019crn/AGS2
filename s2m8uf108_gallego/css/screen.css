@@ -1,17 +1,8 @@
 body{
-  background-color: #E5A291;
+  background-color: grey;
   font-family: 'Roboto', Helvetica, Arial, sans-serif, Georgia, Times;
   font-size: 1em;
 }
-
-h1{
-  margin-top: 49%;
-  text-align: center;
-  font-size: 3em;
-  line-height: 4em;
-  font-weight: 700;
-}
-
 .contingut{
   position: absolute;
   top: 0;
@@ -23,105 +14,65 @@ h1{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px;
+  background-color: #F2D1C8;
 }
-
 /*Barra superior*/
 .cap_principal{
+  display: block;
   background-color: #D36448;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 80px;
+  width: 411px;
+  height: 92px;
 }
 /*Cuerpo*/
 .cos{
+  display: block;
   background-color: #F2D1C8;
-  position: fixed;
-  top: 80px;
-  left: 0;
-  right: 0;
-  bottom: 80px;
   overflow-y: auto;
+  width: 411px;
+  height: 547px;
 }
 /*Barra inferior*/
 .peu{
+  display: block;
   background-color: #D36448;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 80px;
-  text-align: center;
+  width: 411px;
+  height: 92px;
 }
 /*Iconos Barra inferior*/
-.icon1{
-  background-color: white;
-  bottom: 10px;
-  right: 40px;
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
+.icon{
+  height: 92px;
+  width: 97.7px;
+  border: 1px solid #000000;
   display: inline-block;
-  margin: 10px 5%;
-}
-.icon2{
-  background-color: white;
-  bottom: 10px;
-  right: 150px;
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: inline-block;
-  margin: 10px 5%;
-}
-.icon3{
-  background-color: white;
-  bottom: 10px;
-  right: 260px;
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: inline-block;
-  margin: 10px 5%;
-}
-.icon4{
-  background-color: white;
-  bottom: 10px;
-  right: 370px;
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: inline-block;
-  margin: 10px 5%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*Iconos Barra superior*/
-.logout{
-  position: fixed;
-  left: 1%;
-  top: -1%;
-  height: 100px;
+#logout{
+  float: left;
+  height: 80px;
   width: 100px;
+  margin-top: 5.5px;
   background-image: url(../img/logout.png);
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
 }
-.cuentas{
-  position: fixed;
-  left: 75%;
-  top: 0%;
+#cuentas{
+  float: left;
+  left: 50%;
   height: 80px;
   width: 80px;
+  margin-left: 145px;
   background-image: url(../img/cuentas.png);
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
 }
-.config{
-  position: fixed;
-  left: 87%;
-  top: 0%;
+#config{
+  float: left;
+  left: 65%;
+  margin-top: 5.5px;
   height: 80px;
   width: 80px;
   background-image: url(../img/config.png);
@@ -129,18 +80,444 @@ h1{
   background-repeat: no-repeat;
   background-position: center;
 }
+#atras{
+  float: left;
+  height: 70px;
+  width: 90px;
+  margin-top: 13px;
+  background-image: url(../img/atras.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.menusuperior p{ /*CONFIGURACIÓN*/
+  float: left;
+  width: 229px;
+  height: 34px;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 29px;
+  line-height: 34px;
+}
+.menusuperior2 p{ /*CUENTAS*/
+  float: left;
+  width: 229px;
+  height: 34px;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 29px;
+  line-height: 34px;
+}
+/*Menus medio*/
+.menusuperior{
+  width: 411px;
+  height: 92px;
+  position: relative;
+  float: left;
+}
+#menuinferior{
+  width: 322px;
+  height: 211px;
+  position: absolute;
+  left: 45px;
+  top: 385px;
+}
+.menuinferior{
+  width: 139px;
+  height: 88px;
+  background: #D36448;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  margin: 11px;
+}
+#comida{
+  background-image: url(../img/comida.png);
+}
+#bebida{
+  background-image: url(../img/bebida.png);
+}
+#complementos{
+  background-image: url(../img/complementos.png);
+}
+#cafe{
+  background-image: url(../img/cafe.png);
+}
 /*Iconos Enviar orden*/
 .enviarorden{
-  background: #483323;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 16px;
-text-align: center;
-font-size: 28px;
-line-height: 33px;
-color: #FFFFFF;
-  position: fixed;
-  left: 50%;
-  top: 50%;
+  background-color: #483323;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
   width: 230px;
-height: 61px;
+  height: 61px;
+  margin-left: 22%;
+  margin-top: 3.5%;
+  display: inline-block;
+  border: 2px solid #000000;
+}
+.enviarorden p{
+  font-size: 28px;
+  line-height: 60px;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+}
+/*Lista menú 1*/
+#tarjeta{
+  background-image: url(../img/tarjeta.png);
+  background-size: 90%;
+}
+#efectivo{
+  background-image: url(../img/efectivo.png);
+  background-size: 70%;
+}
+.pago{
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 5px;
+  border: 2px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+.pago:hover{
+  color: #000000;
+  opacity: 30%;
+}
+.abajo{
+  margin-top: 250px;
+}
+#lista1{
+  background-color: #FFFFFF;
+  position: fixed;
+  width: 322px;
+  height: 227px;
+  left: 45px;
+  top: 127px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 19px;
+}
+#lista2{
+  background: #D36448;
+  position: absolute;
+  width: 322px;
+  height: 46px;
+  left: -2px;
+  top: -2px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+#lista2 p{
+  font-size: 24px;
+  line-height: 42px;
+  color: #FFFFFF;
+  align-items: center;
+  margin-left: 4%;
+}
+#lista3 p{
+  width: 120px;
+  height: 120px;
+  margin-top: 40px;
+  display: block;
+  float: left;
+  margin-left: 16px;
+}
+#lista4 p{
+  width: 31px;
+  height: 100px;
+  margin-top: 60px;
+  float: left;
+  margin-left: 47px;
+}
+#line{
+  position: absolute;
+  width: 285.5px;
+  height: 0px;
+  left: 15px;
+  top: 160px;
+  border: 1px solid #000000;
+}
+/*Selector mesa*/
+.selectormesa{
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  left: 45px;
+  top: 172px;
+}
+.selectormesa li {
+  display: block;
+  background-color: #FFFFFF;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 18px;
+  line-height: 38px;
+  align-items: center;
+  text-align: center;
+}
+.selectormesa li:hover{
+  color: #FFFFFF;
+  background-color: #483323;
+  width: 200px;
+  height: 40px;
+}
+/*Selector configuración*/
+.selectorconfig li {
+  display: block;
+  margin-left: 46px;
+  margin-top: 17px;
+  background-color: #FFFFFF;
+  width: 310px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 18px;
+  line-height: 38px;
+  align-items: center;
+  text-align: center;
+}
+.selectorconfig li:hover{
+  color: #FFFFFF;
+  background-color: #483323;
+  width: 310px;
+  height: 40px;
+}
+/*Botón buscar*/
+#buscar{
+  background: #C4C4C4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 341px;
+  height: 32px;
+  margin-left: 31px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#buscar p{
+  font-style: italic;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+/*Barras comida*/
+.caja1{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  float: left;
+  width: 341px;
+  height: 58px;
+  margin-left: 31px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  position: static;
+}
+.caja2{
+  background: red;
+  float: left;
+  width: 103px;
+  height: 58px;
+  position: static;
+}
+.caja3{
+  background: #D36448;
+  float: left;
+  width: 28px;
+  height: 58px;
+  position: static;
+  margin-left: 313px;
+}
+#pen{
+  background-image: url(../img/pen.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.caja4{
+  background: #C4C4C4;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  float: left;
+  width: 36px;
+  height: 26px;
+  margin-left: -200px;
+  margin-top: 15px;
+  position: static;
+}
+.texto{
+  margin-left: -20px;
+  margin-top: -4px;
+  font-size: 30px;
+}
+/*COMIDA*/
+#foto1{
+  background-image: url(../img/foto1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto2{
+  background-image: url(../img/foto2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto3{
+  background-image: url(../img/foto3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto4{
+  background-image: url(../img/foto4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto5{
+  background-image: url(../img/foto5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto6{
+  background-image: url(../img/foto6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto7{
+  background-image: url(../img/foto7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto8{
+  background-image: url(../img/foto8.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*BEBIDA*/
+#foto9{
+  background-image: url(../img/foto9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto10{
+  background-image: url(../img/foto10.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto11{
+  background-image: url(../img/foto11.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto12{
+  background-image: url(../img/foto12.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto13{
+  background-image: url(../img/foto13.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto14{
+  background-image: url(../img/foto14.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto15{
+  background-image: url(../img/foto15.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto16{
+  background-image: url(../img/foto16.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*COMPLEMENTOS*/
+#foto17{
+  background-image: url(../img/foto17.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto18{
+  background-image: url(../img/foto18.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto19{
+  background-image: url(../img/foto19.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto20{
+  background-image: url(../img/foto20.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto21{
+  background-image: url(../img/foto21.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto22{
+  background-image: url(../img/foto22.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto23{
+  background-image: url(../img/foto23.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto24{
+  background-image: url(../img/foto24.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*CAFE*/
+#foto25{
+  background-image: url(../img/foto25.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto26{
+  background-image: url(../img/foto26.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto27{
+  background-image: url(../img/foto27.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto28{
+  background-image: url(../img/foto28.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto29{
+  background-image: url(../img/foto29.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto30{
+  background-image: url(../img/foto30.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto31{
+  background-image: url(../img/foto31.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#foto32{
+  background-image: url(../img/foto32.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
