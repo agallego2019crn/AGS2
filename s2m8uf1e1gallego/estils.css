@@ -1,0 +1,172 @@
+body{
+	font-family: Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+  background-color: #222;
+	color: #FFF;
+}
+/*BARRA LATERAL*/
+#logo{
+  height: 80px;
+  width: 80px;
+  margin-left: 5px;
+  background-image: url(img/logo.png);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  float: left;
+}
+.barraizquierda{
+  background-color: rgba(0, 0, 0, 0.50);
+	height: 100%;
+  width: 100px;
+	position: fixed;
+	margin-top: -10px;
+}
+.enlaceizquierda{
+ position: static;
+ margin-left: 25px;
+ line-height: 50px;
+}
+.enlaceizquierda2{
+ position: static;
+ margin-left: 25px;
+ line-height: 50px;
+}
+.enlaceizquierda a{
+  color: #CCC;
+  text-decoration: none;
+}
+.enlaceizquierda2 a{
+  color: #CCC;
+  text-decoration: none;
+}
+a:active{
+  color: #CCC;
+  text-decoration: underline;
+}
+.enlaceizquierda a:hover{
+  color: #FFF;
+  text-decoration: underline;
+}
+/*TITULARES*/
+.titulo{
+  margin-top: 0;
+  margin-left: 100px;
+  font-size: 22px;
+  height: 43’5%;
+}
+#imgfondo1{
+  background-image: url(img/1982Koyaanisqatsi.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  color: #FFF;
+}
+#imgfondo2{
+  background-image: url(img/2011LaDoctrinaDeShock.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  color: #000000;
+}
+#imgfondo3{
+  background-color: rgba(0, 0, 0, 0.50);
+}
+.mover{
+  margin-left: 110px;
+}
+/*SECCIONES*/
+.peli{
+  display: inline-block;
+}
+.img{
+	border-radius: 5px;
+	height: 260px;
+  width: 175px;
+  margin: 20px 0;
+  margin-left: 20px;
+}
+.desc{
+	color: #CCC;
+	margin-left: 20px;
+}
+.desc h2{
+  font-size: 14px;
+	margin-top: -10px;
+}
+.desc h3{
+  font-size: 11px;
+}
+.desc h4{
+  text-align: right;
+	margin-top: -25px;
+	font-size: 11px;
+}
+/*PORTADAS PELIS*/
+#portada1{
+	background-image: url(img/1982Koyaanisqatsi.jpg);
+}
+#portada2{
+	background-image: url(img/2004YTuQueSabes.jpg);
+}
+#portada3{
+	background-image: url(img/2005Earthlings.jpg);
+}
+#portada4{
+	background-image: url(img/2007Helvetica.jpg);
+}
+#portada5{
+	background-image: url(img/2007Sicko.jpg);
+}
+#portada6{
+	background-image: url(img/2008Zeitgeist2.jpg);
+}
+#portada7{
+	background-image: url(img/2009ArtAndCopy.jpg);
+}
+#portada8{
+	background-image: url(img/2009Home.jpg);
+}
+#portada9{
+	background-image: url(img/2009RipARemixManifesto.jpg);
+}
+#portada10{
+	background-image: url(img/2010ComprarTirarComprar.jpg);
+}
+#portada11{
+	background-image: url(img/2010InsideJob.jpg);
+}
+#portada12{
+	background-image: url(img/2011LaDoctrinaDeShock.jpg);
+}
+#portada13{
+	background-image: url(img/2012SearchingForSugarMan.jpg);
+}
+#portada14{
+	background-image: url(img/2012TheActOfKilling.jpg);
+}
+#portada15{
+	background-image: url(img/2013ElEspirituDel45.jpg);
+}
+/*PORTADAS COLORES*/
+#img1{
+  background-color: red;
+}
+#img2{
+  background-color: #3c3c3c;
+}
+#img3{
+  background-color: yellow;
+}
+#img4{
+  background-color: gray;
+}
+/*PORTADAS COLORES GRIS*/
+.gris{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+@media (max-width: 640px) {
+
+#out{
+  font-size: 0;
+}
