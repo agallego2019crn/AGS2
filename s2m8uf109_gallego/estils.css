@@ -1,0 +1,32 @@
+
+#superior{
+  background-color: yellow;
+  height: 200px;
+}
+
+#medio{
+  background-color: orange;
+  float: left;
+  width: 20%;
+  height: 200px;
+}
+
+#derecha{
+  background-color: pink;
+  float: left;
+  width: 20%;
+  height: 200px;
+}
+
+#izquierda{
+  background-color: purple;
+  width: 60%;
+  height: 200px;
+  float: left;
+}
+
+#inferior{
+  background-color: green;
+  height: 200px;
+  clear: both;
+}
