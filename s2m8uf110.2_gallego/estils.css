@@ -1,0 +1,36 @@
+#cor{
+  position: relative;
+  margin-left: 100px;
+  animation: latido 0.3s infinite alternate-reverse;
+  height: 150px;
+  width: 150px;
+}
+
+.love1{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 50px 100px;
+}
+
+.love2{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(45deg);
+  transform-origin: 50px 100px;
+}
+
+@keyframes latido{
+  0% {
+    transform: scale(0.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
