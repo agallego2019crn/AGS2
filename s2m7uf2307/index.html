@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+  body{
+    font-family: sans-serif;
+    margin: 0,auto;
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+    #rojo{
+      background-color: red;
+      height: 300px;
+      width: 300px;
+      border-radius: 200px;
+      margin-left: 40%;
+      margin-bottom: 15px;
+    }
+    #naranja{
+      background-color: orange;
+      height: 300px;
+      width: 300px;
+      border-radius: 200px;
+      margin-left: 40%;
+      margin-bottom: 15px;
+    }
+    #verde{
+      background-color: green;
+      height: 300px;
+      width: 300px;
+      border-radius: 200px;
+      margin-left: 40%;
+      margin-bottom: 15px;
+    }
+    #txt1{
+      text-align: center;
+      line-height: 270px;
+      font-size: 50px;
+    }
+    #txt2{
+      text-align: center;
+      line-height: 270px;
+      font-size: 50px;
+    }
+    #txt3{
+      text-align: center;
+      line-height: 270px;
+      font-size: 50px;
+    }
+  </style>
+  <body>
+
+  <div id="blanco">
+    <div id="rojo"><p id="txt1"></p></div>
+    <div id="naranja"><p id="txt2"></div>
+    <div id="verde"><p id="txt3"></div>
+  </div>
+
+
+
+    <script trype="text/javascript" language="javascript">
+
+    document.getElementById('rojo').addEventListener('click',ROJO);
+    document.getElementById('naranja').addEventListener('click',NARANJA);
+    document.getElementById('verde').addEventListener('click',VERDE);
+
+    function ROJO(){
+      document.body.style.backgroundColor="#FA5858";
+      document.getElementById('txt1').innerHTML="STOP";
+      document.getElementById('txt2').innerHTML="";
+      document.getElementById('txt3').innerHTML="";
+    }
+    function NARANJA(){
+      document.body.style.backgroundColor="#FACC2E";
+      document.getElementById('txt1').innerHTML="";
+      document.getElementById('txt2').innerHTML="CUIDADO";
+      document.getElementById('txt3').innerHTML="";
+    }
+    function VERDE(){
+      document.body.style.backgroundColor="#9FF781";
+      document.getElementById('txt1').innerHTML="";
+      document.getElementById('txt2').innerHTML="";
+      document.getElementById('txt3').innerHTML="PASA";
+    }
+
+    </script>
+  </body>
+</html>

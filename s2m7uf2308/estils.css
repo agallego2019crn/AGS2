@@ -1,0 +1,177 @@
+ body{
+	margin:0 auto;
+	padding: 0;
+	background-color: #cce4e0;
+}
+#contenedor{
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 80%;
+	margin-top: 30px;
+}
+#tema{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+#chat{
+	width: 70%;
+	height: 400px;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #E5E7E9;
+	border: solid 1px #333333;
+	
+}
+.tema{
+	background-color: #E5E7E9;
+	width: 13%;
+	height: 200px;
+	border-radius: 10px;
+	padding:  20px;
+	display: inline-block;
+	margin: 10px;
+	border: solid 1px #333333;
+}
+
+.bocadillo{
+	width: 70%;
+	min-height: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: -3px 2px 0px #DDD;
+	margin: 0.5em 0;
+	transform: scale(2);
+	box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.40);
+}
+.principal{
+	width: 70%;
+	min-height: 4rem;
+	border-radius: 0.5rem;
+	box-shadow: -3px 2px 0px #DDD;
+	margin: 0.5rem 0;
+	transform: scale(2);
+	background-color: #E5E7E9;
+}
+
+
+.izquierdo{
+	transform: scale(1,1);
+	background-color: #D5DBDB;
+}
+.derecho{
+	transform: scale(-1,1);
+	background-color: #AEB6BF;
+	float: right;
+}
+
+.boton{
+	width: 2rem;
+	height: 2rem;
+	background-color: transparent;
+	clear: both;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 5.5rem;
+	border: solid 0.2rem #FFF;
+}
+
+#principal{
+  background-color: #FFF;
+}
+
+#default{
+  background-color: #E5E7E9;
+}
+
+
+#mono{
+  background-color: #D5F5E3;
+}
+#mono .izquierdo{
+	background-color: #ABEBC6;
+}
+#mono .derecho{
+	background-color: #58D68D;
+}
+
+
+#dark{
+  background-color: #2d2e2e;
+}
+#dark .izquierdo{
+	background-color: #cecfd1;
+}
+#dark .derecho{
+	background-color: #a0a1a3;
+}
+
+
+#artic{
+  background-color: #F3E2A9;
+}
+#artic .izquierdo{
+	background-color: #F5DA81;
+}
+#artic .derecho{
+	background-color: #F7D358;
+}
+
+.bola{
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	margin: 10px;
+	display: inline-block;
+}
+.anular{
+	display: none;
+	width: 125%;
+	height: 5rem;
+}
+
+#colores {
+	justify-content: space-around;
+	background: #424242;
+}
+
+#colores1 {
+	justify-content: space-around;
+	background: #424242;
+}
+
+#colores2 {
+	justify-content: space-around;
+	background: #424242;
+}
+
+.slider {
+	overflow-x: auto;
+	display: none;
+}
+
+
+
+
+input [type=color]{
+	border-radius: 50%;
+	width: 3.4rem;
+	height: 3.4rem;
+	border: none;
+}
+
+input [type=color]:focus{
+	-webkit-appearance: none;
+	outline: none;
+}
+
+input [type=color]::-webkit-color-swatch-wrapper{
+border-radius: 50%;
+padding: 0;
+}
+
+input [type=color]::-webkit-color-swatch{
+border: none;
+border-radius: 50%;
+}
