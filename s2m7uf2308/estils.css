@@ -59,6 +59,7 @@
 .izquierdo{
 	transform: scale(1,1);
 	background-color: #D5DBDB;
+	filter: opacity();
 }
 .derecho{
 	transform: scale(-1,1);
