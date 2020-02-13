@@ -8,12 +8,19 @@ ul{
     width: 960px;
     margin: auto;
 }
-li{
+
+li {
     height: 420px;
     width: 180px;
     margin: 4px;
-    background: repeating-linear-gradient(90deg, #ddd 0px, #ddd 4px, transparent 4px, transparent 8px),
-                repeating-linear-gradient(0deg, #ddd 0px, #ddd 4px, transparent 4px, transparent 8px);
+   /* background: repeating-linear-gradient(90deg,#ddd 0px,#ddd 4px, transparent 4px, transparent 8px),
+                repeating-linear-gradient(#ddd 0px,#ddd 4px, transparent 4px, transparent 8px);*/
+    background:
+        linear-gradient(45deg, gray 25%, transparent 25%, transparent 75%, gray 75%, gray),
+        linear-gradient(45deg, gray 25%, transparent 25%, transparent 75%, gray 75%, gray);
+    background-size: 30px 30px;
+        background-position: 0 0, 15px 15px;
+
     display: block;
     float: left;
     padding: 2px;
