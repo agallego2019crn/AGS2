@@ -1,0 +1,31 @@
+#contenidor{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#gran img{
+    width: 40%;
+    height: auto;
+}
+
+#petit img{
+    width: 7.7%;
+    height: auto;
+}
+
+#gran{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#petit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    height: 696px;
+}
