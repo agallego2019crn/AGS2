@@ -1,0 +1,23 @@
+#tot{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#bombeta{
+    width: 50%;
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    background-color: tomato;
+    font-size: 25px;
+}
+
+ul{
+    width: 65%;
+    margin: 0 auto;
+}
