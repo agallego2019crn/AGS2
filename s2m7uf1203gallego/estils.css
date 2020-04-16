@@ -1,0 +1,53 @@
+alumnat {
+  background-color: #81F79F;
+  margin: 10px;
+  width: 500px;
+  height: 165px;
+  padding: 10px;
+  font-size: 36px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #CCC;
+}
+
+nom {
+  color: red;
+  display: block;
+}
+
+mail {
+  display: block;
+  font-style: italic;
+}
+
+image {
+  background-image: url({image});
+}
+
+#alu {
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFCFCC;
+  margin: 10px;
+  width: 420px;
+  box-shadow: 10px 10px 10px #DDD;
+}
+
+#txt {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+body {
+  padding-left: 0px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h2,h3,h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-style: italic;
+}
