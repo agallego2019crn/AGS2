@@ -1,0 +1,56 @@
+body{
+  font-style: Helvetica Neue;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+#cap{
+  border-bottom: solid 2px #000;
+}
+
+#expo{
+  border-bottom: solid 2px #000;
+  width: 160px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#menu li{
+  list-style: none;
+}
+
+#menu{
+  width: 17%;
+  float: left;
+  display: inline;
+}
+
+#any li{
+  list-style: none;
+}
+
+#grup {
+  width: 39%;
+  float: left;
+}
+
+#cartell {
+  float: right;
+  width: 33%;
+  height: 350px;
+  font-size: 15px;
+  line-height: 10px;
+  margin-bottom: 60px;
+}
+
+#fotos {
+  width: 75%;
+  float: left;
+}
+
+img{
+  width: 450px;
+}
