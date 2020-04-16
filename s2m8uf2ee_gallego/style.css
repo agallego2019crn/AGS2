@@ -1,0 +1,83 @@
+/* 
+Theme Name:   carsandfilms
+Description:  Examen
+Author:       Aaron
+Version:      1.0
+License:      A copiar
+Tags:         cotxes
+*/
+
+
+@import url("estil.css");
+@import url("960_12_col.css");
+
+
+
+body {
+  background: no-repeat;
+  background-image: linear-gradient(30deg, ivory 50%, pink 50% 100%);
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+}
+
+.caixa {
+  height: 200px;
+  margin-bottom: 70px;
+  transition: 0.3s;
+}
+
+.caixa img{
+  width:100%;
+}
+
+#textogris{
+  color:gray;
+}
+
+.titulo{
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  margin-bottom: -200px;
+}
+
+.cap{
+  height: 589px;
+  background-image: url(images/animacion.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+p{ 
+  position:relative;
+  margin-top: 0;
+  bottom: 4px;
+  display:flex;
+  align-items: center;
+  padding-left: 10px;
+  background-color: #DDDFE7;
+  height: 40px;
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.caixa:hover{
+  filter: hue-rotate(45deg);
+  transform: rotate(360deg) scale(1.1);
+  box-shadow: 0 0 10px pink;
+
+}
+
+footer {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: ivory;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
