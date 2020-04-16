@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="cartel.xsl"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<image><src>img/001_birdman.jpg</src></image>
+		<Titol>Birdman o (la inesperada virtud de la ignorancia)</Titol>
+		<Titol_original>Birdman</Titol_original>
+		<Pais>EE.UU.</Pais>
+		<Any>2014</Any>
+		<Director>Alejandro González Iñárritu</Director>
+		<Qualificacio>7</Qualificacio>
+		<Genere>Comedia, Drama</Genere>
+		<Data_estrena>09 de Enero 2015</Data_estrena>
+		<Sinopsi>Protagonizada por Michael Keaton, 'Birdman' cuenta la historia de un actor en ciernes, que fue una vez popular por interpretar a un famoso superhéroe, tendrá que hacer frente a su ego y sus problemas familiares, con tal de levantar una obra en Broadway que supondrá su última esperanza en el mundo del espectáculo. Dirigida por Alejandro González Iñárritu, Emma Stone y Naomi Watts acompañan en esta película indie de Fox Searchlight Pictures protagonizada por el que un día se enfundó el traje de Batman.</Sinopsi>
+		<Duracio>119 min.</Duracio>
+	</Row>
+	<Row>
+		<image><src>img/002_escuela.jpg</src></image>
+		<Titol>Camino a la escuela</Titol>
+		<Titol_original>Sur le chemin de l'école</Titol_original>
+		<Pais>Francia</Pais>
+		<Any>2013</Any>
+		<Director>Pascal Plisson</Director>
+		<Qualificacio>TP</Qualificacio>
+		<Genere>Documental</Genere>
+		<Data_estrena>23 de Enero 2015</Data_estrena>
+		<Sinopsi>Narra la historia real y extraordinaria de cuatro niños y niñas, héroes cotidianos - Jackson, Carlitos, Zahira y Samuel - que deben enfrentarse diariamente con una multitud de adversidades y peligros para llegar a la escuela. Estos jóvenes viven en cuatro puntos muy distantes de la tierra, pero comparten las mismas ganas de aprender y son conscientes de que sólo la educación les abrirá las puertas a un porvenir mejor. 'Camino a la escuela' es una película que rebosa optimismo y esperanza en un futuro, donde para Jackson, Carlitos, Zahira y Samuel todo es posible con coraje, predeterminación y esfuerzo.</Sinopsi>
+		<Duracio>77 min.</Duracio>
+	</Row>
+	<Row>
+		<image><src>img/003_ida.jpg</src></image>
+		<Titol>Ida</Titol>
+		<Titol_original>Ida</Titol_original>
+		<Pais>Polonia</Pais>
+		<Any>2013</Any>
+		<Director>Paweł Pawlikowski</Director>
+		<Qualificacio>7</Qualificacio>
+		<Genere>Drama</Genere>
+		<Data_estrena>28 de Marzo 2014</Data_estrena>
+		<Sinopsi>Polonia 1962. Anna es una guapa jovencita de 18 años, que se prepara para convertirse en monja en el convento donde ha vivido desde que quedó huérfana de niña., pero pronto descubre que tiene una pariente viva que tiene que visitar antes de tomar los votos, la hermana de su madre, Wanda. Ambas se embarcan juntas en un viaje de descubrimiento sobre ellas mismas y de su pasado común. Anna descubre que su tía no sólo es una antigua abogada del Estado comunista, conocida por sentenciar a sacerdotes y a otras personas a muerte, sino que además es judía. Descubre así que ella también es judía y que su verdadero nombre es Ida. Esta revelación hace que Anna, ahora Ida, inicie un viaje para descubrir sus raíces y para enfrentarse a la realidad sobre su familia. Ida debe elegir entre su identidad natal y la religión que le salvó de las masacres de la ocupación nazi de Polonia. Y Wanda debe enfrentarse a decisiones que tomó durante la Guerra, cuando eligió la fidelidad a la causa antes que la familia.</Sinopsi>
+		<Duracio>82 min.</Duracio>
+	</Row>
+	<Row>
+		<image><src>img/004_red_army.jpg</src></image>
+		<Titol>Red Army</Titol>
+		<Titol_original>Red Army</Titol_original>
+		<Pais>EE.UU.</Pais>
+		<Any>2014</Any>
+		<Director>Gabe Polsky</Director>
+		<Qualificacio>TP</Qualificacio>
+		<Genere>Documental, Biografía</Genere>
+		<Data_estrena>13 de Febrero 2015</Data_estrena>
+		<Sinopsi>'Red Army' se adentra en la historia de la Unión Soviética y la dinastía deportiva más exitosa de la historia: el equipo de Hockey conocido como El Ejército Rojo. Contada desde la perspectiva de su capitán Slava Fetisov, la historia narra su transformación de héroe nacional a enemigo político. Desde la URSS a Rusia, la película examina cómo el deporte es un reflejo de los movimientos sociales y culturales y establece un paralelismo entre el ascenso y la caída del Ejército Rojo de hockey y el de la Unión Soviética.</Sinopsi>
+		<Duracio>76 min.</Duracio>
+	</Row>
+	<Row>
+		<image><src>img/005_relatos_salvajes.jpg</src></image>
+		<Titol>Relatos salvajes</Titol>
+		<Titol_original>Wild Tales</Titol_original>
+		<Pais>Argentina</Pais>
+		<Any>2014</Any>
+		<Director>Damián Szifron</Director>
+		<Qualificacio>16</Qualificacio>
+		<Genere>Comedia, Thriller</Genere>
+		<Data_estrena>17 de Octubre 2014</Data_estrena>
+		<Sinopsi>a desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Ésta es una película sobre ellos. De la imaginación del guionista y director de 'Los simuladores' y 'Tiempo de Valientes', llega una película integrada por seis historias independientes que combinan suspenso, humor y violencia en un verdadero espectáculo visual y narrativo. Ricardo Darín, Darío Grandinetti, Leonardo Sbaraglia, Érica Rivas y Oscar Martínez son algunos de los protagonistas de estos "relatos salvajes".</Sinopsi>
+		<Duracio>122 min.</Duracio>
+	</Row>
+	<Row>
+		<image><src>img/006_sal_tierra.jpg</src></image>
+		<Titol>La sal de la Tierra</Titol>
+		<Titol_original>The Salt of the Earth</Titol_original>
+		<Pais>Brasil</Pais>
+		<Any>2014</Any>
+		<Director>Wim Wenders, Juliano Ribeiro Salgado</Director>
+		<Qualificacio>7</Qualificacio>
+		<Genere>Documental, Biografía</Genere>
+		<Data_estrena>31 de Octubre 2014</Data_estrena>
+		<Sinopsi>Dirigida por Wim Wenders y Juliano Riberio Salgado, este documental franco-brasileño titulado 'La sal de la Tierra' sigue al fotógrafo Sebastião Salgado que ha recorrido los cinco continentes, estudiando los cambios de la humanidad durante 40 años. Ahora cambia ese terreno por territorios vírgenes y salvajes.</Sinopsi>
+		<Duracio>110 min.</Duracio>
+	</Row>
+	<Row>
+		<image><src>img/007_loreak.jpg</src></image>
+		<Titol>Loreak (Flores)</Titol>
+		<Titol_original>Loreak</Titol_original>
+		<Pais>España</Pais>
+		<Any>2014</Any>
+		<Director>José María Goenaga, Jon Garaño</Director>
+		<Qualificacio>7</Qualificacio>
+		<Genere>Drama</Genere>
+		<Data_estrena>31 de Octubre 2014</Data_estrena>
+		<Sinopsi>Dirigida por Jon Garaño y Jose Mari Goenaga, 'Loreak (Froles) sigue a Ana, Lourdes y Tere que comienzan a recibir, cada semana y a la misma hora, un ramo de flores en su casa. Es un presente que les hace recordar a alguien importante en sus vidas.</Sinopsi>
+		<Duracio>99 min.</Duracio>
+	</Row>
+</Root>
